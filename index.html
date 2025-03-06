@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <title>Ayush Thakur Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <a id="contactMeButton" href="mailto:goodcontent1010@gmail.com" 
+   style="position: fixed; bottom: 20px; right: 20px; background-color: #ff6f30; color: white; padding: 12px 20px; border-radius: 5px; text-decoration: none; font-size: 16px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);">
+   Contact Me
+</a>
+    <header>
+        <div class="container">
+            <div class="profile">
+                <img src="https://i.ibb.co/C6KdVcM/create-a-modern-minimalist-logo-design-for-the-nam-5bife3y-YQMi-GGCu8kw9-Aw-Q-T3-Uvpg-P4-Qn-KBwm-WV8.jpg" alt="Ayush Thakur" class="profile-photo">
+                <h1>Ayush Thakur</h1>
+            </div>
+            <p class="intro">
+                Hello, I am an expert in website development. I know multiple languages which help in website development. 
+                I provide a personalized experience with the client, ensuring their demands are met clearly through direct communication. 
+                Rates are dependent on the work, but they are reasonable and affordable.
+            </p>
+        </div>
+    </header>
+
+    <hr>
+
+<section id="ongoing-projects">
+    <div class="container">
+        <h2>AI-Powered Websites</h2>
+        
+        <p>[Your website will have a fully custom domain (e.g., yourbrand.com), below are just demos.]</p>
+        <p><strong>Smart websites built using AI for better design, automation, and performance.</strong></p>       
+        <div class="ongoing-list">
+            <div class="work-item">
+                    <h3>Demo Website 1</h3>
+                     <p>A demo website built with advanced AI tools, showcasing my skills in Web Development and AI integration.</p>
+                    <a href="https://sustained-vacation-225200.framer.app/" target="_blank">View Website</a>
+                </div>
+                <div class="work-item">
+                    <h3>Demo Website 2</h3>
+                     <p>A AI-built demo website highlighting my expertise in Web Development and AI integration.</p>
+                    <a href="https://joyous-level-846658.framer.app/" target="_blank">View Website</a>
+                </div>
+                <div class="work-item">
+                    <h3>Demo Website 3</h3>
+                     <p>A demo website created using advanced AI tools, showcasing my expertise in Web Development and AI integration.</p>
+                    <a href="https://early-memory-545494.framer.app/" target="_blank">View Website</a>
+                </div>
+            <div class="ongoing-item">
+                <h3>Demo Website 4</h3>
+                <p>A demo website built with advanced AI tools, demonstrating my skills in Web Development and AI integration.</p>                
+                <a href="https://resilient-principles-327758.framer.app/" target="_blank">View Preview</a>
+            </div>
+            <div class="work-item">
+                    <h3>Demo Website 5</h3>
+                     <p>A demo website showcasing my expertise in Web Development, enhanced with advanced AI tools.</p>
+                    <a href="https://resourceful-decade-994094.framer.app/" target="_blank">View Website</a>
+                </div>
+                
+              
+        </div>
+    </div>
+</section>
+    
+<section id="work">
+    <div class="container">
+        <h2>Custom Coded Websites</h2>
+        <p>Here is a glimpse of some of the websites I have coded. There is much more.</p>
+        
+        <div class="work-list">
+           
+                       
+            
+            <div class="work-item">
+                <h3>Demo Website 1</h3>
+                <a href="https://theayushthakur7.github.io/AYUSH-THAKUR-SKILLS-SHOWCASE/" target="_blank">View Website</a>
+            </div>
+            <div class="work-item">
+                <h3>Demo Website 2</h3>
+                <a href="https://theayushthakur7.github.io/AYUSH-THAKUR-SHOWCASE-WEBSITE/" target="_blank">View Website</a>
+            </div>
+            <div class="work-item">
+                
+                <h3>Harsh Path, YouTuber</h3>
+                <a href="https://everydaywarriors.github.io/EverydayWarriors/" target="_blank">View Website</a>
+            </div>
+        </div>
+    </div>
+</section>
+        
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <p>Looking to create a website that speaks to your audience? If you love what you’ve seen and are ready to build something unique, reach out to me. Drop a mail at <span class="email-text">goodcontent1010@gmail.com</span> and let’s craft your perfect website together.</p>
+        <a href="mailto:goodcontent1010@gmail.com" class="contact-btn">Get In Touch</a>
+    </div>
+</section><hr>
+<section id="expertise">
+    <div class="container">
+        <h2 class="section-title">My Expertise</h2>
+        <div class="expertise-grid">
+            <div class="expertise-item">
+                <h3>Core Technologies</h3>
+                <p>HTML, CSS, JavaScript (JS)</p>
+            </div>
+            <div class="expertise-item">
+                <h3>Frontend & UI Development</h3>
+                <p>React, Framer, Webflow, WordPress, Wix</p>
+            </div>
+            <div class="expertise-item">
+                <h3>Design & Prototyping</h3>
+                <p>Figma (for UI/UX planning)</p>
+            </div>
+            <div class="expertise-item">
+                <h3>Backend & Integrations</h3>
+                <p>API integrations, Automation, Basic Node.js & Firebase</p>
+            </div>
+            <div class="expertise-item">
+                <h3>Adaptability</h3>
+                <p>Comfortable with learning and implementing new technologies as per project needs.</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <script>
+    document.addEventListener("scroll", function() {
+        var contactSection = document.getElementById("contact");
+        var contactButton = document.getElementById("contactMeButton");
+
+        if (contactSection) {
+            var sectionTop = contactSection.getBoundingClientRect().top;
+            var windowHeight = window.innerHeight;
+
+            if (sectionTop <= windowHeight * 0.8) {
+                contactButton.style.display = "none"; // Hide button when near contact section
+            } else {
+                contactButton.style.display = "block"; // Show button when scrolling away
+            }
+        }
+    });
+</script>
+</body>
+</html>

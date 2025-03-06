@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ff6f30; /* Orange gradient color */
+    background: linear-gradient(135deg, #ff6f30, #ff9d4d); /* Gradient for added depth */
+    border-bottom: 2px solid #ddd;
+    color: #fff;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.intro {
+    font-size: 18px;
+    color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Slightly darkened background to add contrast */
+    border-radius: 10px;
+}
+
+#work {
+    padding: 50px 0;
+    background-color: #fff;
+    border-bottom: 2px solid #ddd;
+}
+
+#work h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#work p {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.work-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.work-item:hover {
+    transform: translateY(-10px);
+}
+
+.work-item h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.work-item a {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.work-item a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: 50px;
+}
+#contact {
+    background-color: #f9f9f9; /* Light white shade */
+    padding: 40px 0; /* Reduced padding to reduce space */
+    text-align: center;
+    border-top: 3px solid #ddd;
+}
+
+#contact h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#contact p {
+    font-size: 18px;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.email-text {
+    color: #ff6f30; /* Make the email text look like a link */
+    font-weight: bold;
+    background-color: #f9f9f9; /* Match background to blend in */
+    padding: 6px 12px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.email-text:hover {
+    color: #e65c21; /* Darker shade on hover */
+}
+
+.contact-btn {
+    display: inline-block;
+    background-color: #ff6f30; /* Button color */
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-btn:hover {
+    background-color: #e65c21; /* Darker shade on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+#ongoing-projects {
+    padding: 50px 0;
+    background-color: #fff; /* Match with other sections for consistency */
+    border-bottom: 2px solid #ddd;
+}
+
+#ongoing-projects h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#ongoing-projects p {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.ongoing-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.ongoing-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.ongoing-item:hover {
+    transform: translateY(-10px);
+}
+
+.ongoing-item h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.ongoing-item p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.ongoing-item a {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ongoing-item a:hover {
+    text-decoration: underline;
+}
+.video-wrapper {
+    max-width: 800px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the video */
+}
+
+.video-wrapper video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+#expertise {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.expertise-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.expertise-item:hover {
+    transform: translateY(-5px);
+}
+
+.expertise-item h3 {
+    font-size: 22px;
+    color: #ff6f30;
+    margin-bottom: 10px;
+}
+
+.expertise-item p {
+    font-size: 18px;
+    color: #555;
+}
